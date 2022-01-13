@@ -10,7 +10,7 @@ const bookSchema = new Schema({
     type: String,
     required: true,
   },
-  // saved book id from GoogleBooks
+  // saved book id from Marvel Comic Books
   bookId: {
     type: String,
     required: true,

@@ -1,4 +1,4 @@
-// see SignupForm.js for comments
+// 
 import React, { useState } from 'react';
 import { Form, Button, Alert } from 'react-bootstrap';
 
@@ -18,7 +18,7 @@ const LoginForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    // check if form has everything (as per react-bootstrap docs)
+    // checking form for all entries
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
@@ -29,7 +29,7 @@ const LoginForm = () => {
       const response = await loginUser(userFormData);
 
       if (!response.ok) {
-        throw new Error('something went wrong!');
+        throw new Error('Something went wrong! Please try again');
       }
 
       const { token, user } = await response.json();
@@ -51,7 +51,7 @@ const LoginForm = () => {
     <>
       <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
         <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
-          Something went wrong with your login credentials!
+          Something went wrong with your login credentials! Please try again!
         </Alert>
         <Form.Group>
           <Form.Label htmlFor='email'>Email</Form.Label>

@@ -8,7 +8,7 @@ import { removeBookId } from '../utils/localStorage';
 const SavedBooks = () => {
   const [userData, setUserData] = useState({});
 
-  // use this to determine if `useEffect()` hook needs to run again
+  //Determines if hook needs to run again
   const userDataLength = Object.keys(userData).length;
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const SavedBooks = () => {
         const response = await getMe(token);
 
         if (!response.ok) {
-          throw new Error('something went wrong!');
+          throw new Error('Something went wrong! Please try again!');
         }
 
         const user = await response.json();
@@ -36,7 +36,7 @@ const SavedBooks = () => {
     getUserData();
   }, [userDataLength]);
 
-  // create function that accepts the book's mongo _id value as param and deletes the book from the database
+  // Create function that accepts the book's mongo _id value as param and deletes the book from the database
   const handleDeleteBook = async (bookId) => {
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
@@ -60,7 +60,7 @@ const SavedBooks = () => {
     }
   };
 
-  // if data isn't here yet, say so
+  // When data isn't here
   if (!userDataLength) {
     return <h2>LOADING...</h2>;
   }
@@ -69,7 +69,7 @@ const SavedBooks = () => {
     <>
       <Jumbotron fluid className='text-light bg-dark'>
         <Container>
-          <h1>Viewing saved books!</h1>
+          <h1>Viewing your saved comic books!</h1>
         </Container>
       </Jumbotron>
       <Container>
