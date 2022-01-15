@@ -49,18 +49,18 @@ const SavedBooks = () => {
 
   return (
     <>
-      <Jumbotron fluid className="text-light bg-dark">
+      <Jumbotron fluid className="text-light" id="viewSaved">
         <Container>
-          <h1>Viewing saved books!</h1>
+          <h1>Viewing saved items!</h1>
         </Container>
       </Jumbotron>
       <Container>
         <h2>
           {userData.savedBooks.length
             ? `Viewing ${userData.savedBooks.length} saved ${
-                userData.savedBooks.length === 1 ? "book" : "books"
+                userData.savedBooks.length === 1 ? "item" : "items"
               }:`
-            : "You have no saved books!"}
+            : "You have no saved items!"}
         </h2>
         <CardColumns>
           {userData.savedBooks.map((book) => {
@@ -81,7 +81,7 @@ const SavedBooks = () => {
                     className="btn-block btn-danger"
                     onClick={() => handleDeleteBook(book.bookId)}
                   >
-                    Delete this Book!
+                    Delete this!
                   </Button>
                 </Card.Body>
               </Card>

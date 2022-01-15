@@ -102,7 +102,7 @@ const SearchBooks = () => {
     <>
       <Jumbotron fluid className="text-light" id="jumbo">
         <Container>
-          <h1>Search for Books!</h1>
+          <h1>Search the Marvel Universe!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Form.Row>
               <Col xs={12} md={8}>
@@ -112,7 +112,7 @@ const SearchBooks = () => {
                   onChange={(e) => setSearchInput(e.target.value)}
                   type="text"
                   size="lg"
-                  placeholder="Search for a book"
+                  placeholder="Marvel Universe..."
                 />
               </Col>
               <Col xs={12} md={4}>
@@ -129,7 +129,7 @@ const SearchBooks = () => {
         <h2>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
-            : "Search for a book to begin"}
+            : "Search to begin"}
         </h2>
         <CardColumns>
           {searchedBooks.map((book) => {
@@ -157,8 +157,8 @@ const SearchBooks = () => {
                       {savedBookIds?.some(
                         (savedBookId) => savedBookId === book.bookId
                       )
-                        ? "This book has already been saved!"
-                        : "Save this Book!"}
+                        ? "This has been saved!"
+                        : "Save this!"}
                     </Button>
                   )}
                 </Card.Body>
