@@ -12,17 +12,16 @@ const AppNavbar = () => {
 
   return (
     <>
-    {/*   */}
       <Navbar className="Navbar" variant='dark' expand='lg'>
         <Container fluid>
           <Navbar.Brand as={Link} to='/'>
-            Marvel Universe Search
+            Google Books Search
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
             <Nav className='ml-auto'>
               <Nav.Link as={Link} to='/'>
-                Marvel Search
+                Search For Books
               </Nav.Link>
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
