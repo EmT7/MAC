@@ -10,10 +10,10 @@ import {
 } from "react-bootstrap";
 
 import Auth from "../utils/auth";
-import { searchGoogleBooks } from "../utils/API";
+import { searchMarvelComicBooks } from "../utils/API"; //searchGoogleBooks
 import { saveBookIds, getSavedBookIds } from "../utils/localStorage";
-import { SAVE_BOOK } from "../utils/mutations";
-import { useMutation } from "@apollo/react-hooks";
+//import { SAVE_BOOK } from "../utils/mutations";
+//import { useMutation } from "@apollo/react-hooks";
 
 const SearchBooks = () => {
   // State for holding returned Marvel api data
@@ -33,7 +33,7 @@ const SearchBooks = () => {
     };
   });
 
-  const [saveBook, { error }] = useMutation(SAVE_BOOK);
+  const [saveBook, { error }] = useState({}); //useMutation(SAVE_BOOK);
 
   // create method to search for books and set state on form submit
   const handleFormSubmit = async (event) => {
