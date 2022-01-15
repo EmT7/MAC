@@ -7,7 +7,7 @@ import LoginForm from './LoginForm';
 import Auth from '../utils/auth';
 
 const AppNavbar = () => {
-  // set modal display state
+  
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -23,7 +23,7 @@ const AppNavbar = () => {
               <Nav.Link as={Link} to='/'>
                 Marvel Search
               </Nav.Link>
-              {/* if user is logged in show saved books and logout */}
+              {/* If user is already logged in show saved books and logout option */}
               {Auth.loggedIn() ? (
                 <>
                   <Nav.Link as={Link} to='/saved'>
