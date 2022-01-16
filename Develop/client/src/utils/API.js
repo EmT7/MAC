@@ -52,5 +52,5 @@ export const deleteBook = (bookId, token) => {
 
 // make a search to marvel comics api
 export const searchMarvelComicBooks = (query) => {
-  return fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
+  return fetch(`https://gateway.marvel.com:443/v1/public/comics?apikey=97a0ce4758cb2a37f84f38a6943e1bf5`);
 };
