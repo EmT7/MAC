@@ -1,4 +1,4 @@
-# MAC The Marvel Comic Book Search Engine ![GitHub license](https://img.shields.io/npm/l/express?style=for-the-badge)
+# Welcome to MAC The Marvel Comic Book Search Engine ![GitHub license](https://img.shields.io/npm/l/express?style=for-the-badge)
 # Project #3 University of Oregon Coding Bootcamp
 
 ## Project Description
@@ -24,8 +24,10 @@ Npm
 ## Contributors to "The Barter System" Project:
  
 - [Ayla Duran](https://github.com/Ayla122) :e-mail: [Email me](mailto:ayladd122@gmail.com)
-- [Cienna Mortenson](https://github.com/Cienna97) :e-mail:[Email me](mailto:)
+- [Cienna Mortenson](https://github.com/Cienna97) :e-mail:[Email me](mailto:cmortenson97@gmail.com)
 - [Miranda Thompson](https://github.com/MirandaT77) :e-mail:[Email me](mailto:ranileah7@gmail.com)
 
 
 For inquiries or concerns, please :mailbox: :love_letter: 
+
+
