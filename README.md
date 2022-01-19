@@ -1,8 +1,15 @@
-# Welcome to MAC The Marvel Comic Book Search Engine ![GitHub license](https://img.shields.io/npm/l/express?style=for-the-badge)
+# Welcome to MAC: The Marvel Comic Book Search Engine!   ([![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC))
 # Project #3 University of Oregon Coding Bootcamp
 
 ## Project Description
-Calling all Marvel Comic fanatics! This is YOUR place to search, save and delete Marvel Comic Books you are interested in. Users must login to be able to save and delete Comic books, one place to keep track of all things Marvel!
+
+
+Calling all Marvel Comic fans! Welcome to the MAC Marvel Universe!
+ 
+This is YOUR place to search, save and delete all your favorite Marvel Comic Books. Users must login to be able to save and delete Comic books under their profile. One place to keep track of all things Marvel!
+
+![Deployed page](https://drive.google.com/file/d/1UZRj4Uidq_gReMrK2aCAXlmRWY2ERleo/view?usp=sharing "MAC: Marvel Comic Page")
+
 
 ## Project Requirements
 * Use React for the front end.
@@ -18,16 +25,36 @@ Calling all Marvel Comic fanatics! This is YOUR place to search, save and delete
 * Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming * conventions, indentation, high-quality comments, etc.).
 * Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-## Package Installations
-Npm
+## Deployed Application
+[MAC-Project](https://mac-project.herokuapp.com/)
 
-## Contributors to "The Barter System" Project:
+## Package Dependencies
+- node
+- apollo-server-express
+- bcrypt
+- express
+- graphql
+- jsonwebtoken
+- mongoose
+- apollo/react-hook
+- apollo-boost
+- bootstrap
+- graphql-tag
+- jwt-decode
+- react
+- react-bootstrap
+- react-dom
+- react-router-dom
+- react-scripts
+
+
+## Contributors of MAC Project 3:
  
 - [Ayla Duran](https://github.com/Ayla122) :e-mail: [Email me](mailto:ayladd122@gmail.com)
-- [Cienna Mortenson](https://github.com/Cienna97) :e-mail:[Email me](mailto:cmortenson97@gmail.com)
-- [Miranda Thompson](https://github.com/MirandaT77) :e-mail:[Email me](mailto:ranileah7@gmail.com)
+- [Cienna Mortenson](https://github.com/Cienna97) :e-mail: [Email me](mailto:cmortenson97@gmail.com)
+- [Miranda Thompson](https://github.com/MirandaT77) :e-mail: [Email me](mailto:ranileah7@gmail.com)
 
 
-For inquiries or concerns, please :mailbox: :love_letter: 
+For inquiries or concerns, please :mailbox: :love_letter: one of the listed contributing developers 
 
 
