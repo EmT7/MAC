@@ -8,7 +8,11 @@ Calling all Marvel Comic fans! Welcome to the MAC Marvel Universe!
  
 This is YOUR place to search, save and delete all your favorite Marvel Comic Books. Users must login to be able to save and delete Comic books under their profile. One place to keep track of all things Marvel!
 
-![Deployed page](https://drive.google.com/file/d/1UZRj4Uidq_gReMrK2aCAXlmRWY2ERleo/view?usp=sharing "MAC: Marvel Comic Page")
+
+## Deployed Application
+[MAC-Project # 3: Marvel Comic Search](https://mac-project.herokuapp.com/)
+![MAC](/client/public/Screenshot.png)
+
 
 
 ## Project Requirements
@@ -25,8 +29,6 @@ This is YOUR place to search, save and delete all your favorite Marvel Comic Boo
 * Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming * conventions, indentation, high-quality comments, etc.).
 * Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-## Deployed Application
-[MAC-Project](https://mac-project.herokuapp.com/)
 
 ## Package Dependencies
 - node
@@ -49,6 +51,8 @@ This is YOUR place to search, save and delete all your favorite Marvel Comic Boo
 
 
 ## Contributors of MAC Project 3:
+
+Thank you for checking out our final group project!
  
 - [Ayla Duran](https://github.com/Ayla122) :e-mail: [Email me](mailto:ayladd122@gmail.com)
 - [Cienna Mortenson](https://github.com/Cienna97) :e-mail: [Email me](mailto:cmortenson97@gmail.com)
