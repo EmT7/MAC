@@ -1,3 +1,3 @@
-export const searchGoogleBooks = (query) => {
-  return fetch(`https://gateway.marvel.com/v1/public/comics?apikey=1234&hash=97a0ce4758cb2a37f84f38a6943e1bf5`);
+export const searchMarvelComics = (query) => {
+  return fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
 };
