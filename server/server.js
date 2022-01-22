@@ -1,5 +1,4 @@
 const express = require("express");
-const { createProxyMiddleware } = require("http-proxy-middleware");
 const path = require("path");
 const db = require("./config/connection");
 const { ApolloServer } = require("apollo-server-express");
