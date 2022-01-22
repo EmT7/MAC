@@ -21,9 +21,3 @@ export const  searchMarvelComics = (query) => {
 
     return(comicsResp);
   };
-
-
-
-
-
-
