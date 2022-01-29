@@ -46,19 +46,20 @@ const SearchBooks = () => {
 
     try {
       const response = await searchMarvelComics(searchInput);
-
+      
       if (!response.ok) {
         throw new Error("something went wrong!");
       }
 
-      const { items } = await response.json();
-
-      const bookData = items.map((book) => ({
+      const result = await response.json();
+      console.log(result)
+      const { results } = result.data
+      const bookData = results.map((book) => ({
         bookId: book.id,
-        authors: book.volumeInfo.authors || ["No author to display"],
-        title: book.volumeInfo.title,
-        description: book.volumeInfo.description,
-        image: book.volumeInfo.imageLinks?.thumbnail || "",
+        authors: book.creators?.items[0]?.name || ["No author to display"],
+        title: book.title,
+        description: book.description,
+        image: book.thumbnail?.path || "",
       }));
 
       setSearchedBooks(bookData);
